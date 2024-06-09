@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Navbar() {
@@ -6,7 +7,7 @@ export default function Navbar() {
       <header className="p-3 bg-dark text-white">
         <div className="container">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a
+            <Link
               href="/"
               class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
             >
@@ -16,33 +17,33 @@ export default function Navbar() {
                 height="50"
                 src="https://istad.co/resources/img/logo_md.png"
               ></img>
-            </a>
+            </Link>
 
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
               <li>
-                <a href="#" class="nav-link px-2 text-white">
+                <Link href="#" class="nav-link px-2 text-white">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" class="nav-link px-2 text-white">
+                <Link href="#" class="nav-link px-2 text-white">
                   Features
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" class="nav-link px-2 text-white">
+                <Link href="#" class="nav-link px-2 text-white">
                   Pricing
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" class="nav-link px-2 text-white">
+                <Link href="#" class="nav-link px-2 text-white">
                   FAQs
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" class="nav-link px-2 text-white">
+                <Link href="#" class="nav-link px-2 text-white">
                   About
-                </a>
+                </Link>
               </li>
             </ul>
 

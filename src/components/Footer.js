@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 export default function Footer() {
   return (
@@ -10,9 +11,9 @@ export default function Footer() {
             With supporting text below as a natural lead-in to additional
             content.
           </p>
-          <a href="#" class="btn btn-primary">
+          <Link href="#" class="btn btn-primary">
             Go somewhere
-          </a>
+          </Link>
         </div>
         <div class="card-footer text-body-secondary">@Copy</div>
       </div>

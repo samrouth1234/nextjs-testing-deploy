@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <h1>Hello Everyone My Name's BOXING CAMBODIA</h1>
+      <h1>Hello Everyone My Name BOXING CAMBODIA</h1>
       <Footer />
     </div>
   );
